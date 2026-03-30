@@ -417,33 +417,7 @@ export default function Index() {
                 осаде Плевны, потерял брата Сергея. Эта личная причастность определила всё: серия стала не
                 хроникой побед, а документом человеческих потерь.
               </p>
-              <p className="mb-6 text-neutral-600">
-                Выставка серии в Петербурге и Москве в 1880 году вызвала скандал. Александр III назвал картины
-                «антипатриотическими». Верещагин отверг обвинения и отказался уничтожить полотна, которые
-                требовали убрать.
-              </p>
-              <div className="grid grid-cols-2 gap-8 mt-12">
-                <div>
-                  <h3 className="text-sm uppercase tracking-widest mb-4 font-bold">Хронология</h3>
-                  <ul className="space-y-2 text-neutral-600">
-                    <li>1877 — начало кампании</li>
-                    <li>1877–1878 — оборона Шипки</li>
-                    <li>1877–1878 — осада Плевны</li>
-                    <li>1878–1879 — создание серии</li>
-                    <li>1880 — первые выставки</li>
-                  </ul>
-                </div>
-                <div>
-                  <h3 className="text-sm uppercase tracking-widest mb-4 font-bold">Темы серии</h3>
-                  <ul className="space-y-2 text-neutral-600">
-                    <li>Военные переходы</li>
-                    <li>Оборона Шипки</li>
-                    <li>Осада Плевны</li>
-                    <li>Антивоенный пафос</li>
-                    <li>Образ противника</li>
-                  </ul>
-                </div>
-              </div>
+
             </div>
           </div>
         </div>
