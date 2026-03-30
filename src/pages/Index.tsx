@@ -10,8 +10,9 @@ const sections = [
         num: "01",
         title: "Казаки, вступающие в Румынию (Скобелев-отец)",
         year: "1878–1879",
+        image: "https://cdn.poehali.dev/projects/c435c9e8-12b8-466c-9c87-46683e856d91/bucket/36c88f9a-5020-4d9f-964c-e13a9723590c.jpg",
         annotation:
-          "Картина открывает балканскую серию. Колонна казаков движется через румынскую границу — торжественно и буднично одновременно. В центре — генерал Скобелев-отец, отец будущего героя Плевны. Верещагин фиксирует не парад, а переход: усталые лошади, пыль дороги, неизвестность впереди.",
+          "Картина открывает балканскую серию. Колонна казаков движется через румынскую границу — торжественно и буднично одновременно. События относятся к началу кампании весной 1877 года, когда русская армия перешла Прут и вступила на территорию союзной Румынии, чтобы затем форсировать Дунай.",
       },
       {
         num: "02",
@@ -347,11 +348,19 @@ export default function Index() {
                 >
                   <div className={`col-span-12 md:col-span-5 ${i % 2 === 1 ? "md:[direction:ltr]" : ""}`}>
                     <div className="aspect-[4/3] bg-neutral-100 relative overflow-hidden group">
-                      <div className="absolute inset-0 bg-neutral-200 flex items-center justify-center group-hover:bg-black transition-colors duration-500">
-                        <span className="text-6xl font-bold text-neutral-300 group-hover:text-red-600 transition-colors duration-500">
-                          {painting.num}
-                        </span>
-                      </div>
+                      {painting.image ? (
+                        <img
+                          src={painting.image}
+                          alt={painting.title}
+                          className="w-full h-full object-cover"
+                        />
+                      ) : (
+                        <div className="absolute inset-0 bg-neutral-200 flex items-center justify-center group-hover:bg-black transition-colors duration-500">
+                          <span className="text-6xl font-bold text-neutral-300 group-hover:text-red-600 transition-colors duration-500">
+                            {painting.num}
+                          </span>
+                        </div>
+                      )}
                       <div className="absolute bottom-0 left-0 right-0 h-1 bg-red-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
                     </div>
                   </div>
