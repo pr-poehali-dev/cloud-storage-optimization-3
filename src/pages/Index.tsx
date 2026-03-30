@@ -383,27 +383,6 @@ export default function Index() {
         </section>
       ))}
 
-      {/* Additional painting: Adjutant */}
-      <section className="py-20 px-4 md:px-8 bg-black text-white">
-        <div className="container mx-auto">
-          <div className="grid grid-cols-12 gap-8 items-center">
-            <div className="col-span-12 md:col-span-4">
-              <div className="aspect-[3/4] bg-neutral-800 relative overflow-hidden group">
-                <div className="absolute inset-0 flex items-center justify-center group-hover:bg-red-900 transition-colors duration-500">
-                  <span className="text-6xl font-bold text-neutral-600 group-hover:text-red-400 transition-colors duration-500">
-                    {additionalPainting.num}
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="col-span-12 md:col-span-8">
-              <p className="text-xs uppercase tracking-widest text-red-500 mb-2">{additionalPainting.year} · Вне разделов</p>
-              <h3 className="text-4xl font-bold tracking-tighter mb-6">{additionalPainting.title}</h3>
-              <p className="text-neutral-300 leading-relaxed text-lg">{additionalPainting.annotation}</p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* About the series */}
       <section id="about" className="py-20 px-4 md:px-8">
