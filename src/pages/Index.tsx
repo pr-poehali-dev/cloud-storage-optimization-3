@@ -502,7 +502,7 @@ export default function Index() {
               О художнике
             </a>
           </div>
-          <p className="text-xs text-neutral-400 uppercase tracking-widest">25 картин · 6 разделов</p>
+          <p className="text-xs text-neutral-400 uppercase tracking-widest">21 картина · 6 разделов</p>
         </div>
       </footer>
     </main>
