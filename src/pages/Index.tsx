@@ -483,14 +483,12 @@ export default function Index() {
               </div>
             </div>
             <div className="flex flex-col justify-between">
-              <div className="aspect-[4/3] bg-red-700 relative mb-8">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <p className="text-sm uppercase tracking-widest text-red-400 text-center">
-                    В.В. Верещагин
-                    <br />
-                    <span className="text-white">1842–1904</span>
-                  </p>
-                </div>
+              <div className="aspect-[4/3] relative mb-8 overflow-hidden">
+                <img
+                  src="https://cdn.poehali.dev/projects/c435c9e8-12b8-466c-9c87-46683e856d91/bucket/dcf9e54f-a93a-4a9d-bdc7-3eb3a81e9ac3.jpeg"
+                  alt="В.В. Верещагин"
+                  className="w-full h-full object-cover"
+                />
                 <div className="absolute top-4 left-4 w-8 h-8 border-l-2 border-t-2 border-white"></div>
                 <div className="absolute bottom-4 right-4 w-8 h-8 border-r-2 border-b-2 border-white"></div>
               </div>
