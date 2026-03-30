@@ -151,7 +151,7 @@ const sections = [
         year: "1878–1879",
         image: "https://cdn.poehali.dev/projects/c435c9e8-12b8-466c-9c87-46683e856d91/bucket/868c96be-737c-421d-89f3-022bd1267b70.jpg",
         annotation:
-          "Турецкие солдаты на поле боя среди тел русских. Картина-пара к «Панихиде». Верещагин совершил невозможное для своего времени: он показал победу врага без ненависти и без оправдания. Просто: они победили здесь и сегодня. Завтра на их месте могут оказаться другие. Война не выбирает.",
+          "Сюжет картины опирается на реальные события, которые художник лично наблюдал после взятия Телиша. В передней части полотна зритель видит изуродованные, обезглавленные тела русских егерей. В то же время на заднем плане турецкие солдаты беззаботно смеются и переодеваются в шинели, снятые с убитых. Этот ужасающий контраст — веселье выживших и униженная смерть погибших — производит сильное впечатление. Верещагин с беспощадной правдивостью запечатлел жуткое сочетание человеческого ликования и крайней жестокости.",
       },
       {
         num: "18",
@@ -227,6 +227,7 @@ const additionalPainting = {
   num: "00",
   title: "Адъютант",
   year: "1878",
+  image: "https://cdn.poehali.dev/projects/c435c9e8-12b8-466c-9c87-46683e856d91/bucket/94eb5f78-7a20-4f6f-a668-749e1587e8f6.jpg",
   annotation:
     "Фигура адъютанта — вестника при штабе. Он связной между командованием и смертью: передаёт приказы, которые отправляют людей умирать. Верещагин наделяет эту фоновую фигуру неожиданным достоинством. Адъютант — образ механизма войны: человек, который исполняет волю системы и сам является её частью.",
 };
@@ -410,15 +411,9 @@ export default function Index() {
           <div className="grid grid-cols-12 gap-8">
             <div className="col-span-12 md:col-span-5">
               <h2 className="text-5xl font-bold tracking-tighter mb-8 uppercase">О серии</h2>
-              <div className="aspect-[4/5] bg-neutral-100 relative mb-8 md:mb-0">
-                <div className="absolute inset-6 border-2 border-black"></div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <p className="text-sm uppercase tracking-widest text-neutral-400 text-center px-12">
-                    Балканская серия
-                    <br />
-                    1877–1879
-                  </p>
-                </div>
+              <div className="aspect-[4/5] bg-neutral-100 relative mb-8 md:mb-0 overflow-hidden">
+                <img src="https://cdn.poehali.dev/projects/c435c9e8-12b8-466c-9c87-46683e856d91/bucket/cfcd5ae1-c821-473a-9878-056ed094b0b7.jpg" alt="Балканская серия" className="w-full h-full object-cover" />
+                <div className="absolute inset-6 border-2 border-white/50"></div>
               </div>
             </div>
             <div className="col-span-12 md:col-span-7 md:pt-16">
