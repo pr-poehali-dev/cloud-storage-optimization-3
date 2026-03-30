@@ -498,10 +498,11 @@ export default function Index() {
               </div>
               <blockquote className="border-l-4 border-white pl-6">
                 <p className="text-lg italic text-red-100">
-                  «Пускай эти картины напомнят, что войну надо прекратить, что нужно кончить её если не
-                  из христианского человеколюбия, то из простого расчёта»
+                  «Передо мною, как перед художником, война, и её я бью, сколько у меня есть сил; сильны ли,
+                  действительны ли мои удары — это другой вопрос, вопрос моего таланта, но я бью с размаху
+                  и без пощады»
                 </p>
-                <footer className="text-sm text-red-300 mt-3 uppercase tracking-widest">— Верещагин</footer>
+                <footer className="text-sm text-red-300 mt-3 uppercase tracking-widest">— Верещагин В. В. Письмо к П. М. Третьякову, 1870-е гг.</footer>
               </blockquote>
             </div>
           </div>
