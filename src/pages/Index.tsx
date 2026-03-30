@@ -282,21 +282,6 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Quote */}
-      <section className="py-12 px-4 md:px-8 bg-black text-white">
-        <div className="container mx-auto">
-          <div className="grid grid-cols-12">
-            <div className="col-span-12 md:col-span-8 md:col-start-3">
-              <p className="text-2xl md:text-3xl font-light leading-relaxed italic text-neutral-200">
-                «Я задался целью выяснить войну в её настоящем виде и подействовать на общество в смысле
-                миролюбивом»
-              </p>
-              <p className="text-sm uppercase tracking-widest text-red-500 mt-6">— В.В. Верещагин</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Sections Navigation */}
       <section id="sections" className="py-16 px-4 md:px-8">
         <div className="container mx-auto">
