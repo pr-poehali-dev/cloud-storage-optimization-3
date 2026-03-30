@@ -255,7 +255,7 @@ export default function Index() {
       <section className="pt-32 pb-20 px-4 md:px-8 container mx-auto">
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-12 md:col-span-8 mb-8 md:mb-0">
-            <p className="text-sm uppercase tracking-widest text-red-600 mb-4">Живописная хроника · 1877–1879</p>
+            <p className="text-sm uppercase tracking-widest text-red-600 mb-4">Живописная хроника · 1877–1890</p>
             <h1 className="text-6xl md:text-8xl font-bold tracking-tighter leading-none mb-6">
               РУССКО-
               <br />
